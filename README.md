@@ -1,4 +1,4 @@
-# jot (json-over-tcp) [![Build Status](https://secure.travis-ci.org/ozanturgut/json-over-tcp.png?branch=master)](http://travis-ci.org/ozanturgut/json-over-tcp)
+# jot (json-over-tcp-2) [![Build Status](https://secure.travis-ci.org/mariocasciaro/json-over-tcp-2.png?branch=master)](http://travis-ci.org/mariocasciaro/json-over-tcp-2)
 
 Node.js TCP server/client messaging in JSON.
 
@@ -30,7 +30,7 @@ connection.write(someObject);
 // every second until the script is stopped.
 
 var someRandomPort = 8099,
-  jot = require('json-over-tcp');
+  jot = require('json-over-tcp-2');
 
 var server = jot.createServer(someRandomPort);
 server.on('listening', createConnection);
