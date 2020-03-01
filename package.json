@@ -1,24 +1,25 @@
 {
-  "name": "json-over-tcp",
-  "version": "0.3.2",
-  "description": "TCP server/client messaging in JSON",
+  "name": "json-over-tcp-2",
+  "version": "0.3.3",
   "main": "index.js",
+  "author": {
+    "name": "Ozan Turgut",
+    "email": "ozanturgut@gmail.com",
+    "url": "http://oztu.org/"
+  },
+  "description": "TCP server/client messaging in JSON",
   "dependencies": {
-    "its": "~1.0.0"
-  },    
+    "is-stream": "^2.0.0",
+    "is-buffer": "^2.0.4"
+  },
   "devDependencies": {
-    "grunt": "~0.3.15"
+    "grunt": "^1.0.4",
+    "grunt-contrib-nodeunit": "^2.1.0"
   },
   "engines": {
-    "node": "*"
+    "node": ">=10"
   },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ozanturgut/json-over-tcp.git"
-  },
+  "homepage": "https://github.com/mariocasciaro/json-over-tcp-2",
   "keywords": [
     "tcp",
     "jot",
@@ -27,15 +28,17 @@
     "server",
     "client"
   ],
-  "author": {
-    "name": "Ozan Turgut",
-    "url": "http://oztu.org/",
-    "email": "ozanturgut@gmail.com"
-  },  
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ozanturgut/json-over-tcp/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mariocasciaro/json-over-tcp-2/blob/master/LICENSE-MIT"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariocasciaro/json-over-tcp-2.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
 }
